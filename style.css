@@ -92,6 +92,15 @@
     margin: 50px 100px;
     width: 400px;
 }
+.ex-9-img:hover{
+    transition: filter 3s;
+    scale: 1.5;
+}
+.ex-9-img:hover{
+    filter: grayscale(1) blur(10px) ;
+    border-radius: 10%;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
