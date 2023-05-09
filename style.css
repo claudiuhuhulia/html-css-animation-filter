@@ -136,7 +136,6 @@ animation: rotate10 4s infinite ;
 transform: rotate(280deg) ;
 }
 
-
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -158,6 +157,29 @@ transform: rotate(280deg) ;
     width: 60px;
     height: 20px;
 }
+.ex-12-button:hover .ex-12-top-white{
+    animation: loading-top 3s;
+}
+@keyframes loading-top{
+    0%{
+    left: 10%;
+    }
+    100%{
+    left: 60%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  animation: loading-bot 3s;
+}
+@keyframes loading-bot{
+    0%{
+    right: 20%;
+    }
+    100%{
+    right: 60%;
+    }
+}
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
