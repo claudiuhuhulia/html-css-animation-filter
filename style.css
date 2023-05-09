@@ -103,10 +103,11 @@
 
 .ex-10-icon {
     font-size: 60px;
-    animation: rotate 4s infinite;
 }
-
-@keyframes rotate{
+.ex-10-icon:hover{
+animation: rotate10 4s infinite ;
+}
+@keyframes rotate10{
     from{
     transform: rotate(0);
     }
@@ -117,7 +118,25 @@
 
 .ex-11-icon {
     font-size: 60px;
+    animation: rotate11 3s infinite;
 }
+@keyframes rotate11{
+    0%{
+    transform: rotate(0);
+    }
+    50%{
+        transform: rotate(280deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.ex-11-icon:hover{
+transform: rotate(280deg) ;
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
